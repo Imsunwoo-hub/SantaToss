@@ -1,0 +1,25 @@
+.Record-btns {
+  float: left;
+  width: calc(100% - 15px);
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.Record-btns button {
+  font-family: "Noto Sans KR", sans-serif;
+  margin-right: 8px;
+  float: right;
+}
+#result.result {
+  position: static;
+  width: 100vw;
+  height: 300px;
+}
+
+.Record-btns:hover {
+  background-color: #4f575f;
+}
+
+.Record-btns:active {
+  background-color: #71b6ff;
+}

@@ -1,0 +1,20 @@
+--dataset_file_path	./datasets/captions.csv
+--img_file_path	./datasets/images/
+--train_dataset_path	./datasets/train.txt
+--validation_dataset_path	./datasets/val.txt
+--test_dataset_path	./datasets/test.txt
+--checkpoint_path	./checkpoints/ckpt
+--description_path	./datasets/description.txt
+--user_image	
+--cnn_model_path	./checkpoints/CNN/pretrained_cnn.h5
+--rnn_model_path	./checkpoints/RNN/
+--train_dataset_size	6400
+--validation_dataset_size	1600
+--batch_size	64
+--image_size	299
+--buffer_size	1000
+--load_cnn_model	False
+--embedding_dim	256
+--units	512
+--top_k	5000
+--epochs	20

@@ -1,0 +1,12 @@
+.Links {
+  display: block;
+  margin-top: 20vh;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  background-image: url(/images/Logo.png);
+  background-repeat: no-repeat;
+  height: 512px;
+  width: 512px;
+  cursor: pointer;
+}

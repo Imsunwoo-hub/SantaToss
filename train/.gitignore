@@ -1,0 +1,13 @@
+.idea
+__pycache__
+
+./datasets/
+./logs/
+
+./models/extractor/
+./models/extractor.h5
+./models/decoder/
+
+./checkpoints/
+
+tokenizer.pickle

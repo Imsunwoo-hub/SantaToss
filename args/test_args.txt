@@ -1,0 +1,5 @@
+--caption_file_path	.\datasets\captions.csv
+--img_file_path	.\datasets\images\
+--do_sampling	True
+--batch_size	32
+

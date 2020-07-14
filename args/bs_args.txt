@@ -1,0 +1,14 @@
+--caption_file_path	.\datasets\captions.csv
+--img_file_path	.\datasets\images\
+--do_sampling	True
+<<<<<<< HEAD
+--batch_size	16
+=======
+--batch_size	64
+>>>>>>> 0a0902caac89798ce755b9a371f4c87cd16aad92
+--train_dataset_path	.\datasets\train.txt
+--validation_dataset_path	.\datasets\val.txt
+--load_cnn_model	False
+--cnn_model_path	.\checkpoints\CNN\pretrained_cnn.h5
+--embedding_dim	256
+--image_size	299

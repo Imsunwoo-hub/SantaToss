@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve flask_server
+After=network.target
+
+[Service]
+User=Username
+Group=www-data
+WorkingDirectory=/home/Username/ProejctPath/
+Environment="/home/Username/anaconda3/envs/vm_name/bin"
+ExecStart=/home/Username/anaconda3/envs/vm_name/bin/uwsgi --ini final_flask_server.ini
+
+[Install]
+WantedBy=multi-user.target
